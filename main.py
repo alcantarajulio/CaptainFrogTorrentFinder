@@ -8,7 +8,7 @@ handlers = []
 def clicked():
     inp = inputtxt.get(1.0, "end-1c")
     global handlers
-    handlers= listar_torrents(inp)
+    handlers = listar_torrents(inp)
     listbox.delete(0, END)
 
     for i in range (len(handlers)):
